@@ -1,5 +1,5 @@
 ---
-title: Private Networks - 5G
+title: Private Networks - Introdcution
 tags:
   - studies
   - programming
