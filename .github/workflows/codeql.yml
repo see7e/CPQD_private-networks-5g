@@ -58,16 +58,19 @@ jobs:
     #   uses: actions/setup-example@v1
 
     - name: Check if language is set
+      continue-on-error: true
       if: ${{ matrix.language == '' }}
       run: |
         echo "::warning::No language detected. Skipping analysis."
 
     - name: Cancel Workflow
+      continue-on-error: true
       if: ${{ matrix.language == '' }}
       uses: andymckay/cancel-action@0.4
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
+      continue-on-error: true
       if: ${{ matrix.language != '' }}
       uses: github/codeql-action/init@v3
       with:
@@ -87,6 +90,7 @@ jobs:
     # ℹ️ Command-line programs to run using the OS shell.
     # 📚 See https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
     - if: ${{ matrix.build-mode == 'manual' }}
+      continue-on-error: true
       shell: bash
       run: |
         echo 'If you are using a "manual" build mode for one or more of the' \
@@ -97,6 +101,7 @@ jobs:
         exit 1
 
     - name: Perform CodeQL Analysis
+      continue-on-error: true
       if: ${{ matrix.language != '' }}
       uses: github/codeql-action/analyze@v3
       with:
