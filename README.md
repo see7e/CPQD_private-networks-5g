@@ -22,3 +22,4 @@ dependences:
 
 - [CL01](./classes/01.md): Introduction to Private Networks
 - [CL02](./classes/02.md): Private Networks - Technology
+- [CL03](./classes/03.md): 5G Architecture

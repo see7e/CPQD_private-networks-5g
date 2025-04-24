@@ -1,3 +1,12 @@
+---
+title: Contributors List
+description: ""
+tags: studies, programming
+use: Project
+languages: Markdown
+dependences: NULL
+---
+
 > This file will be used to populate the contributors tab in the about dialog
 > Lines prefixed with # will be ignored
 > The following people have submitted code, patches, graphics, comments,

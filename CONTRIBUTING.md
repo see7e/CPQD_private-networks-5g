@@ -1,7 +1,18 @@
+---
+title: Contributing Package
+description: "Contributing guide"
+tags: studies, programming
+use: Project
+languages: Markdown
+dependences: NULL
+---
+
 # Contributing
 
 > [!NOTE]
 > Some links are broken, each page will be created.
+
+## [Contriobutors](./CONTRIBUTORS.md)
 
 ## Developer guide
 
