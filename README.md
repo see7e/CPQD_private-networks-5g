@@ -24,20 +24,20 @@ dependences:
 # Classes (01)
 ## Module 01 - Prof. Eduardo Moreno / Prof. Loreno Menezes da Silveira
 
-- [CL01](./classes/0101.md): Introduction to Private Networks
-- [CL02](./classes/0102.md): Private Networks - Technology
-- [CL03](./classes/0103.md): 5G Architecture
-- [CL04](./classes/0104.md): Importance of segmentation in private networks
-- [CL05](./classes/0105.md): Segmentation scenarios in private cellular networks and use cases.
-- [CL06](./classes/0106.md): Configuration and design of VLAN's for different traffic classes (voice, video, data, IoT).
-- [CL07](./classes/0107.md): Considerations for the use of VLAN's in private cellular networks.
-- [CL08](./classes/0108.md): Frequency spectrum and licensed and unlicensed bands.
-- [CL09](./classes/0109.md): Allocation of frequencies for private networks in Brazil. Processes for obtaining licenses and regulations (SLP and UTE).
+- [CL01](./classes/0101.md): Introduction to Private Networks (**15-04**)
+- [CL02](./classes/0102.md): Private Networks - Technology (**17-04**)
+- [CL03](./classes/0103.md): 5G Architecture (**22-04**)
+- [CL04](./classes/0104.md): Importance of segmentation in private networks (**24-04**)
+- [CL05](./classes/0105.md): Segmentation scenarios in private cellular networks and use cases. (**25-04**)
+- [CL06](./classes/0106.md): Configuration and design of VLAN's for different traffic classes (voice, video, data, IoT). (**29-04**)
+- [CL07](./classes/0107.md): Considerations for the use of VLAN's in private cellular networks. (**06-05**)
+- [CL08](./classes/0108.md): Frequency spectrum and licensed and unlicensed bands. (**08-05**)
+- [CL09](./classes/0109.md): Allocation of frequencies for private networks in Brazil. Processes for obtaining licenses and regulations (SLP and UTE). (**09-05**)
 
 ## Module 02 - Prof. Almir Meira Alves
-- [CL01](./classes/0201.md): Applying Troubleshooting Tools in Networks: Essential tools: ping, tcpdump, Wireshark, nmap, netcat, socat, logcat.
-- [CL02](./classes/0202.md): Implementing Cybersecurity in Mobile Networks: Vulnerabilities in applications for Industry 4.0. Basic principles of security in private cellular networks. Firewall configuration and policies for network isolation.
-- [CL03](./classes/0203.md): Segmentation and access control in private networks. Interpreting the Signaling Flow in Mobile Networks:
+- [CL01](./classes/0201.md): Applying Troubleshooting Tools in Networks: Essential tools: ping, tcpdump, Wireshark, nmap, netcat, socat, logcat. (**13-05**)
+- [CL02](./classes/0202.md): Implementing Cybersecurity in Mobile Networks: Vulnerabilities in applications for Industry 4.0. Basic principles of security in private cellular networks. Firewall configuration and policies for network isolation. (**15-05**)
+- [CL03](./classes/0203.md): Segmentation and access control in private networks. Interpreting the Signaling Flow in Mobile Networks (**16-05**)
 - [CL04](./classes/0204.md): Signaling protocols: GTP, RRC, NGAP, NAS. Message analysis: NGsetup Request/Response, F1Setup Request/Response, RRC Signaling. Network procedures: UE Attach, PDU Session Establishment, authentication, mobility (handover).
 - [CL05](./classes/0205.md): Interpreting Core Parameters: Core architecture for 4G and 5G networks. Main network functions (NFs) in 4G (MME, HSS, SPGWC, PCRF) and 5G (NRF, NSSF, AMF, AUSF, UDM, UDR, SMF, PCF).
 - [CL06](./classes/0206.md): Interpreting RAN Parameters: Configuring parameters appropriate to the needs of the network/client.
